@@ -1,0 +1,73 @@
+:root {
+  font-family: monospace;
+  font-size: 1.5em;
+  background-color: hsl(50, 100%, 99%);
+  color: hsl(50, 15%, 2%);
+}
+
+.--dark {
+  background-color: hsl(247, 41%, 33%);
+  color: hsl(50, 100%, 99%);
+}
+
+a {
+  color: hsl(230, 28%, 53%);
+}
+
+a:visited {
+  color: hsl(247, 41%, 33%);
+}
+
+a.--dark {
+  color: hsl(50, 100%, 99%);
+}
+
+a.--dark:visited {
+  color: hsl(50, 100%, 99%);
+}
+
+nav {
+  font-size: 1.25rem;
+  height: 1.25em;
+}
+
+li {
+  display: inline-block;
+}
+li~li::before {
+  content: "|";
+}
+
+h1, h2 {
+  font-family: serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  text-align: justify;
+  margin-top: 1em;
+  text-indent: 2em;
+  line-height: 1.25em;
+}
+
+header, main, footer {
+  padding: 1rem 1rem;
+}
+
+main {
+  text-align: center;
+}
+
+footer {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+}
