@@ -37,11 +37,11 @@ a.--dark:visited {
 
 nav {
   font-size: 1.25rem;
-  height: 1.25em;
 }
 
 li {
   display: inline-block;
+  height: 1.25em;
 }
 li~li::before {
   content: "|";
